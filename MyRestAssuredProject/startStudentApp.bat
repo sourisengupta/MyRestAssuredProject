@@ -1,3 +1,4 @@
+cd "D:\Workspace\MyRestAssuredProject\MyRestAssuredProject\app"
 java -jar rest.jar --server.port=8081
 
 echo "Server has started"
