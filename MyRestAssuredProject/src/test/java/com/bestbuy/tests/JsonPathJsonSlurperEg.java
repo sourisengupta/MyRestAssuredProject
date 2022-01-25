@@ -27,7 +27,7 @@ npm start
 		RestAssured.port=3030;
 		jsonResponse = RestAssured.given().when().get("/products").asString();
 	}
-	@BeforeTest
+	@BeforeTest 
 	public void print() {
 		System.out.println("-----Starting the test method------");
 	}
